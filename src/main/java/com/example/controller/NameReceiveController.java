@@ -12,8 +12,8 @@ public class NameReceiveController {
 		return "inputname";
 	}
 
-	@RequestMapping("/return")
-	public String success(String name,Model model) {
+	@RequestMapping("/reutrn")
+	public String outputinfo(String name,Model model) {
 		model.addAttribute("name", name);
 			return "outputname";
 	}

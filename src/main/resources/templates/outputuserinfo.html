@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td>名前:<span th:text="${user.name}">山田</span>
+			</td>
+		</tr>
+		<tr>
+			<td>年齢:<span th:text="${user.age}">３３</span>
+			</td>
+		</tr>
+		<tr>
+			<td>住所:<span th:text="${user.address}">新宿</span>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
